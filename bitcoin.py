@@ -11,3 +11,5 @@ connection_params = {
     "schema": "<schema_name>"
 
 }
+
+snowflake_connection = Session.builder.configs(connection_params).create()
